@@ -1,0 +1,36 @@
+/*Table Styles*/
+
+table {
+    border:1px solid #000;
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: #fff;
+}
+
+tr {
+    vertical-align: top;
+}
+
+td, th{
+    border: 1px dotted #000;
+    padding: 0.5em;
+}
+
+table.client {
+    margin: 40px auto;
+}
+
+table.client th{
+    text-align: left;
+    width: 30%;
+}
+
+table.audience {
+    margin: 40px auto;
+}
+
+table.audience th{
+    text-align: left;
+    width: 33.33%;
+}
